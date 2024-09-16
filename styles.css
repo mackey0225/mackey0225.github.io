@@ -61,11 +61,24 @@ p {
 }
 
 .links {
-    margin-top: 2rem;
+    margin-top: 20px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
+}
+
+.icon-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px; /* 画像同士の間隔を設定 */
+    padding: 10px;
+}
+
+.icon {
+    width: 50px; /* アイコンの大きさ（必要に応じて調整） */
+    height: 50px; /* アイコンの大きさ（必要に応じて調整） */
 }
 
 .button {
